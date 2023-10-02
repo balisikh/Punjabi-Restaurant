@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Punjabi Restaurant: Taste of Punjab</title>
+</head>
+<style>
+    h1 {
+        text-align: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 60px;
+        color: white;
+        font-style: italic;
+    }
+    p {
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 23px;
+        color: white;
+    }
+    legend {
+        text-align: center;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 23px;
+        color: white;
+    }
+    h2 {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 23px;
+        color: white;
+    }
+    label {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 20px;
+    }
+    input {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 20px;
+    }
+    footer {
+        text-align: left;
+    }
+</style>
+<body style="background-color: #aa9e1d;">
+    <h1>&#128151;Taste of Punjab&#128151;</h1>
+    <p style="text-align: center; font-style: normal; font-size: 36px;">&#128512;You can order a meal now on 
+        Taste of Punjab Restaurant Online.	&#128512;</p>
+    <p>Please enter your Punjabi Meal Order details: </p>
+    <form>
+        <fieldset>
+            <legend>Form of Punjabi Meal Order</legend>
+            <label for="fname">First name:</label>
+            <input type="text" id="fname" name="fname"><br><br>
+            <label for="lname">Last name:</label>
+            <input type="text" id="lname" name="lname"><br><br>
+            <label for="telephonenumber">Telephone Number:</label>
+            <input type="text" id="telephonenumber" name="telephonenumber"><br><br>
+            <label for="mobilenumber">Mobile Number:</label>
+            <input type="text" id="mobilenumber" name="mobilenumber"><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br><br>
+            <label for="dateofbirth">Date of Birth:</label>
+            <input type="date" id="dateofbirth" name="dateofbirth"><br><br>
+            <h2>Punjabi Food Options: </h2>
+            <p>Which Punjabi Food do you like to order? Select more than one Punjabi Food you 
+                like from these option given below:</p>
+            <input type="checkbox" id="Tandoori Chicken" name="PunjabiFood" value="Tandoori 
+            Chicken">
+            <label for="Tandoori Chicken">Tandoori Chicken</label>
+            <br>
+            <input type="checkbox" id="Butter Chicken" name="PunjabiFood" value="Butter 
+            Chicken">
+            <label for="Butter Chicken">Butter Chicken</label>
+            <br>
+            <input type="checkbox" id="Daal Makhani" name="PunjabiFood" value="Daal Makhani">
+            <label for="Daal Makhani">Daal Makhani</label>
+            <br>
+            <input type="checkbox" id="Chana Masala" name="PunjabiFood" value="Chana Masala">
+            <label for="Chana Masala">Chana Masala</label>
+            <br>
+            <input type="checkbox" id="Chicken Curry - Punjabi Dhaba Style" 
+            name="PunjabiFood" value="Chicken Curry - Punjabi Dhaba Style">
+            <label for="Chicken Curry - Punjabi Dhaba Style">Chicken Curry - Punjabi Dhaba 
+                Style</label>
+            <br>
+            <input type="checkbox" id="Paneer Tikka" name="PunjabiFood" value="Paneer Tikka">
+            <label for="Paneer Tikka">Paneer Tikka</label>
+            <br>
+            <input type="checkbox" id="Sarson Ka Saag Aur Makki Ki Roti" name="PunjabiFood" 
+            value="Sarson Ka Saag Aur Makki Ki Roti">
+            <label for="Sarson Ka Saag Aur Makki Ki Roti">Sarson Ka Saag Aur Makki Ki Roti</label>
+            <br>
+            <input type="checkbox" id="Chole Bhature" name="PunjabiFood" value="Chole Bhature">
+            <label for="Chole Bhature">Chole Bhature</label>
+            <br>
+            <input type="checkbox" id="Punjabi Daal Tadka" name="PunjabiFood" value="Punjabi 
+            Daal Tadka">
+            <label for="Punjabi Daal Tadka">Punjabi Daal Tadka</label>
+            <br>
+            <input type="checkbox" id="Amritsari Kulcha Recipe" name="PunjabiFood" value="Amritsari 
+            Kulcha Recipe">
+            <label for="Amritsari Kulcha Recipe">Amritsari Kulcha Recipe</label>
+            <br>
+            <input type="checkbox" id="Machchli Amritsari" name="PunjabiFood" value="Machchli Amritsari">
+            <label for="Machchli Amritsari">Machchli Amritsari</label>
+            <br>
+            <input type="checkbox" id="Punjabi Naan" name="PunjabiFood" value="Punjabi Naan">
+            <label for="Punjabi Naan">Punjabi Naan</label>
+            <br>
+            <input type="checkbox" id="Paratha" name="PunjabiFood" value="Paratha">
+            <label for="Paratha">Paratha</label>
+            <br>
+            <input type="checkbox" id="Samosa" name="PunjabiFood" value="Samosa">
+            <label for="Samosa">Samosa</label>
+            <br>
+            <input type="checkbox" id="Pakoras" name="PunjabiFood" value="Pakoras">
+            <label for="Pakoras">Pakoras</label>
+            <br>
+            <h2>Punjabi Sweet Options:</h2>
+            <p>Which Punjabi Sweet do you like to order?</p>
+            <label for="PunjabiSweet">Select which Punjabi Sweet do you like to order: </label>
+            <select name="PunjabiSweet" id="PunjabiSweet">
+                <option value="Gulab Jamun">Gulab Jamun</option>
+                <option value="Gajar Ka Halwa">Gajar Ka Halwa</option>
+                <option value="Punjabi Kheer">Punjabi Kheer</option>
+                <option value="Kulfi">Kulfi</option>
+                <option value="Rice Kheer">Rice Kheer</option>
+                <option value="Kalakand Recipe">Kalakand Recipe</option>
+                <option value="Milk Barfi">Milk Barfi</option>
+                <option value="Besan Ki Barfi">Besan Ki Barfi</option>
+                <option value="Punjabi Laddu">Punjabi Laddu</option>
+            </select>
+            <br>
+            <h2>Punjabi Drink Options: </h2>
+            <p>Which Punjabi Drink do you like to order?</p>
+            <label for="PunjabiDrink">Choose your Punjabi Drink options: </label>
+            <input list="PunjabiDrinks" name="PunjabiDrink" id="PunjabiDrink" required>
+            <datalist id="PunjabiDrinks">
+                <option value="Mango Lassi">
+                <option value="Mint Lassi">
+                <option value="Bhang Lassi">
+                <option value="Sweet Lassi">
+                <option value="Masala Chai">
+                <option value="Thandai">
+                <option value="Punjabi Rose Lassi">
+            </datalist>
+            <br>
+            <br>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </fieldset>
+    </form>
+    <br>
+    <footer>
+        Copyright &copy; 2023
+    </footer>
+</body>
+</html>
